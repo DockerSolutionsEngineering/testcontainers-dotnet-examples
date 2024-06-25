@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DotNetSeleniumExtras.WaitHelpers" />
+    <PackageReference Include="JetBrains.Annotations" VersionOverride="2023.3.0" PrivateAssets="All"/>
+    <PackageReference Include="Microsoft.EntityFrameworkCore"/>
+    <PackageReference Include="RemoteWebDriverOptions" />
+    <PackageReference Include="Testcontainers" />
+    <PackageReference Include="Testcontainers.MsSql" />
+    <PackageReference Include="Testcontainers.WebDriver" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="../WeatherForecast.Repositories/WeatherForecast.Repositories.csproj"/>
+  </ItemGroup>
+</Project>
